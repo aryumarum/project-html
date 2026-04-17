@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar buat formulir pendafataran</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran</h1>
+
+    <form action="">
+        <table>
+            <tr>
+                <td width="2"><label for="nisn">Nisn</label></td>
+                <td>:</td>
+                <td><input type="text" name="nisn" placeholder="Masukkan NISN"></td>
+            </tr>
+
+            <tr>
+                <td><label for="nama">Nama</label></td>
+                <td>:</td>
+                <td><input type="text" name="nama" placeholder="Masukkan Nama"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td>:</td>
+                <td><input type="text" name="email" placeholder="Masukkan Email"></td>
+            </tr>
+
+            <tr>
+                <td><label for="pasword">Pasword</label></td>
+                <td>:</td>
+                <td><input type="text" name="pasword" placeholder="Masukkan Pasword"></td>
+            </tr>
+
+            <tr>
+                <td><label for="telepon">Telepon</label></td>
+                <td>:</td>
+                <td><input type="text" name="telepon" placeholder="Masukkan Telepon"></td>
+            </tr>
+            <tr>
+                <td><label for="alamat">Alamat</label></td>
+                <td>:</td>
+                <td><textarea name="alamat" id="" rows="10"></textarea>  </td>
+            </tr> 
+
+            <tr>
+                <td><label for="File">Upload File</label></td>
+                <td>:</td>
+                <td><input type="file" name="file" id=""></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            
+    </form>
+
+    
+
+    
+    
+</body>
+</html>
